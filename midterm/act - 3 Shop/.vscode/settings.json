@@ -1,0 +1,8 @@
+{
+    "vscode-pets.theme": "none",
+    "vscode-pets.disableEffects": false,
+    "vscode-pets.petColor": "white",
+    "vscode-pets.petSize": "small",
+    "vscode-pets.position": "explorer",
+    "vscode-pets.throwBallWithMouse": true
+}

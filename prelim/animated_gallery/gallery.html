@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .col ,.col3{
+            width: 300px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transform: rotate(7deg);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .col2{
+            width: 300px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: white;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transform: rotate(-8deg); 
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .col:hover, .col2:hover, .col3:hover {
+            transform: rotate(0deg);
+            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3); 
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        span {
+            display: block;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <img src="borac.webp" alt="Boracay">
+            <span>Boracay</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in, quidem ducimus animi aut velit.</p>
+        </div>
+
+        <div class="col2">
+            <img src="taal.jpg" alt="Taal Volcano">
+            <span>Taal Volcano</span>
+            <p>Mayon, also known as Mount Mayon, is an active stratovolcano in the province of Albay, Philippines.</p>
+        </div>
+
+        <div class="col3">
+            <img src="choco.jpg" alt="Chocolate Hills">
+            <span>Chocolate Hills</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in, quidem ducimus animi aut velit.</p>
+        </div>
+
+        <div class="col">
+            <img src="borac.webp" alt="Boracay">
+            <span>Boracay</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in, quidem ducimus animi aut velit.</p>
+        </div>
+
+        <div class="col2">
+            <img src="taal.jpg" alt="Taal Volcano">
+            <span>Taal Volcano</span>
+            <p>Mayon, also known as Mount Mayon, is an active stratovolcano in the province of Albay, Philippines.</p>
+        </div>
+
+        <div class="col3">
+            <img src="choco.jpg" alt="Chocolate Hills">
+            <span>Chocolate Hills</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in, quidem ducimus animi aut velit.</p>
+        </div>
+
+        <div class="col">
+            <img src="borac.webp" alt="Boracay">
+            <span>Boracay</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in, quidem ducimus animi aut velit.</p>
+        </div>
+
+        <div class="col2">
+            <img src="taal.jpg" alt="Taal Volcano">
+            <span>Taal Volcano</span>
+            <p>Mayon, also known as Mount Mayon, is an active stratovolcano in the province of Albay, Philippines.</p>
+        </div>
+
+        <div class="col3">
+            <img src="choco.jpg" alt="Chocolate Hills">
+            <span>Chocolate Hills</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in, quidem ducimus animi aut velit.</p>
+        </div>
+    </div>
+</body>
+</html>
